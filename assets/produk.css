@@ -12,7 +12,7 @@ div.deskripsi{
     padding: 10px;
     background-color: 	#00008B;
     color: #ccc;
-    border-radius: 10px;
+    border-radius: 50px;
     margin-bottom: 25px;
 }
 
@@ -25,5 +25,8 @@ div.deskripsi{
   * {
     box-sizing: border-box;
   }
+
+
+
 
  
