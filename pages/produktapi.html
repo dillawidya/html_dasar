@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Tapi</title>
+    <link rel="stylesheet" href="../assets/layout.css">
+    <link rel="stylesheet" href="../assets/produk.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="../pages/loginn.html">Login CSS</a></li>
+            <li><a href="../pages/login.html">Daftar</a></li>
+            <li><a href="../pages/landing.html">Landing</a></li>
+            <li><a href="../pages/jsdasar.html">JavaScript</a></li>
+            <li><a href="../pages/produkarray.html">Produk Array</a></li>
+            <li><a href="../pages/produktapi.html">Produk Tapi</a></li>
+            <li><a href="../pages/produk.html">Produk</a></li>
+            <li><a href="../pages/provinsi.html">Provinsi</a></li>
+            <li><a href="../pages/presiden.html">Presiden</a></li>
+            <li><a href="../index.html">Home</a></li>
+            </li>
+        </ul>
+    </nav>
+    <h1 style="background-color: rgb(255, 104, 4); color: rgb(0, 0, 0); text-align: center; padding: 2px;">PRODUK TAPI</h1>
+    <form id="formProduk" >
+        <fieldset>
+        <legend>| Data Produk |</legend>
+        <label for="nama">Nama Produk :</label>
+        <input type="text" name="nama" id="nama" placeholder="Masukkan nama produk"><p></p>
+        
+        
+        <label for="harga">Harga Produk :</label>
+        <input type="text" name="harga" id="harga" placeholder="Masukkan harga"><p></p>
+        
+        
+        <label for="ketrangan">Keterangan :</label>
+        <input type="text" name="keterangan" id="keterangan" placeholder="Masukkan Keterangan"><p></p>
+    
+        <button type="submit" id="btnSubmit">Submit</button>
+    </fieldset>
+    </form>
+    
+    <table id="tabelProduk" border="1" style="margin-top: 10px;" >
+        <thead>
+            <tr bgcolor="#ff0000" style="color: white;">
+                <th>Nama Produk</th>
+                <th>Harga</th>
+                <th>Keterangan</th>
+            </tr>
+        </thead>
+        <tbody id="tabelBodyProduk"></tbody>
+    </table>
+
+
+    <script src="../js/produk.js"></script>
+</body>
+</html>
