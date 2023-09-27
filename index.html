@@ -5,23 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML DASAR</title>
     <link rel="stylesheet" href="assets/layout.css">
+    <link rel="stylesheet" href="assets/nav.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="../html_dasar/pages/loginn.html">Login CSS</a></li>
-            <li><a href="../html_dasar/pages/login.html">Daftar</a></li>
-            <li><a href="../html_dasar/pages/landing.html">Landing</a></li>
-            <li><a href="../html_dasar/pages/jsdasar.html">JavaScript</a></li>
-            <li><a href="../html_dasar/pages/produkarray.html">Produk Array</a></li>
-            <li><a href="../html_dasar/pages/produktapi.html">Produk Tapi</a></li>
-            <li><a href="../html_dasar/pages/produk.html">Produk</a></li>
-            <li><a href="../html_dasar/pages/provinsi.html">Provinsi</a></li>
-            <li><a href="../html_dasar/pages/presiden.html">Presiden</a></li>
-            <li><a href="index.html">Home</a></li>
-            </li>
-        </ul>
-    </nav>
+    <div class="navbar">
+        <a href="../html_dasar/pages/jsdasar.html">JavaScript</a>
+        <a href="../html_dasar/pages/landing.html">Landing</a>
+        <div class="dropdown">
+            <button class="dropbtn">Login 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="../html_dasar/pages/login-responsive.html">Login Resposive</a>
+                <a href="../html_dasar/pages/loginn.html">Login CSS</a>
+                <a href="../html_dasar/pages/login.html">Daftar</a>
+            </div>
+        </div> 
+        <div class="dropdown">
+            <button class="dropbtn">Produk 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="../html_dasar/pages/produk.html">Produk</a>
+                <a href="../html_dasar/pages/produkarray.html">Produk Array</a>
+                <a href="../html_dasar/pages/produktapi.html">Produk Tapi</a>
+            </div>
+        </div> 
+        <a href="../html_dasar/pages/provinsi.html">Provinsi</a>
+        <a href="../html_dasar/pages/presiden.html">Presiden</a>
+        <a href="index.html">Home</a>
+    </div>
+    
     <div class="container-fluid">
         <h1 style="background-color: rgb(255, 104, 4); color: rgb(0, 0, 0); text-align: center; padding: 2px;">PENGERTIAN HTML</h1>
         <p style="text-align: center;"><strong>HTML</strong> singkatan dari <em> "HyperText Markup Language" </em>(Bahasa Pemrograman HyperTeks). 

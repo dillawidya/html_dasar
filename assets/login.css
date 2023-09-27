@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fafafa;
+    color: rgb(255, 104, 4);
+}
+
+
+
+.login-container {
+    display: grid;
+    gap: 10px;
+    text-align: center;
+
+}
+
+.login-container input {
+    padding: 10px;
+    font-size: 16px;
+    
+}
+
+.login-container button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(255, 104, 4);
+}
+
+@media (max-width: 600px) {
+    .login-container {
+        grid-template-columns: 1fr;
+    }
+}
